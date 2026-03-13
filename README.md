@@ -137,7 +137,7 @@ curl https://openai-mail.your-account.workers.dev/
 
 ### 獲取最新郵件
 ```bash
-curl https://openai-mail.your-account.workers.dev/你的密碼/ciallo
+curl https://openai-mail.your-account.workers.dev/{JWT_token-password}/ciallo
 # 返回: 最新郵件的 HTML 內容
 ```
 
